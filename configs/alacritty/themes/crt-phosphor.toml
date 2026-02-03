@@ -1,0 +1,77 @@
+# Inspired by JaKooLit, Retroed by Non-Sense Nostalgia
+# CRT Phosphor Green - Alacritty Color Theme
+
+[colors.primary]
+background = "#0a0a0a"
+foreground = "#00FF00"
+dim_foreground = "#00AA00"
+bright_foreground = "#33FF33"
+
+[colors.cursor]
+text = "#0a0a0a"
+cursor = "#00FF00"
+
+[colors.vi_mode_cursor]
+text = "#0a0a0a"
+cursor = "#33FF33"
+
+[colors.search.matches]
+foreground = "#0a0a0a"
+background = "#00AA00"
+
+[colors.search.focused_match]
+foreground = "#0a0a0a"
+background = "#00FF00"
+
+[colors.hints.start]
+foreground = "#0a0a0a"
+background = "#FFB000"
+
+[colors.hints.end]
+foreground = "#0a0a0a"
+background = "#00AA00"
+
+[colors.line_indicator]
+foreground = "None"
+background = "None"
+
+[colors.footer_bar]
+foreground = "#00FF00"
+background = "#0a0a0a"
+
+[colors.selection]
+text = "#0a0a0a"
+background = "#00FF00"
+
+# Normal colors (CRT phosphor green monochrome with amber for warnings)
+[colors.normal]
+black   = "#0a0a0a"
+red     = "#FF6600"   # Amber-ish for errors
+green   = "#00FF00"   # Primary phosphor
+yellow  = "#FFB000"   # Amber accent
+blue    = "#008800"   # Dim green (no blue in phosphor)
+magenta = "#00CC00"   # Greenish
+cyan    = "#00FF00"   # Primary phosphor
+white   = "#00FF00"   # Primary phosphor
+
+# Bright colors
+[colors.bright]
+black   = "#003300"
+red     = "#FF9933"
+green   = "#33FF33"
+yellow  = "#FFCC33"
+blue    = "#00AA00"
+magenta = "#00DD00"
+cyan    = "#66FF66"
+white   = "#99FF99"
+
+# Dim colors
+[colors.dim]
+black   = "#050505"
+red     = "#994400"
+green   = "#006600"
+yellow  = "#997700"
+blue    = "#004400"
+magenta = "#006600"
+cyan    = "#008800"
+white   = "#00AA00"

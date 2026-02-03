@@ -1,0 +1,191 @@
+{
+    "python.languageServer": "Default",
+    // CRT Phosphor Green Theme - Retroed by Non-Sense Nostalgia
+    "workbench.colorTheme": "CRT Phosphor Green",
+    // Editor colors override (applies on top of any theme)
+    "workbench.colorCustomizations": {
+        // Main backgrounds
+        "editor.background": "#0a0a0a",
+        "sideBar.background": "#0a0a0a",
+        "activityBar.background": "#050505",
+        "panel.background": "#0a0a0a",
+        "terminal.background": "#0a0a0a",
+        "titleBar.activeBackground": "#050505",
+        "statusBar.background": "#003300",
+        "tab.activeBackground": "#0a0a0a",
+        "tab.inactiveBackground": "#050505",
+        // Borders
+        "sideBar.border": "#004400",
+        "panel.border": "#004400",
+        "tab.border": "#004400",
+        "activityBar.border": "#004400",
+        "titleBar.border": "#004400",
+        // Primary text colors (phosphor green)
+        "editor.foreground": "#00FF00",
+        "sideBar.foreground": "#00AA00",
+        "activityBar.foreground": "#00FF00",
+        "statusBar.foreground": "#00FF00",
+        "terminal.foreground": "#00FF00",
+        "tab.activeForeground": "#00FF00",
+        "tab.inactiveForeground": "#006600",
+        // Cursor and selection
+        "editorCursor.foreground": "#00FF00",
+        "editor.selectionBackground": "#004400",
+        "editor.selectionHighlightBackground": "#003300",
+        "editor.lineHighlightBackground": "#0f0f0f",
+        // Line numbers
+        "editorLineNumber.foreground": "#004400",
+        "editorLineNumber.activeForeground": "#00AA00",
+        // Scrollbar
+        "scrollbar.shadow": "#000000",
+        "scrollbarSlider.background": "#00440066",
+        "scrollbarSlider.hoverBackground": "#00660088",
+        "scrollbarSlider.activeBackground": "#00AA0088",
+        // Minimap
+        "minimap.background": "#0a0a0a",
+        // Git decorations
+        "gitDecoration.modifiedResourceForeground": "#FFB000",
+        "gitDecoration.addedResourceForeground": "#00FF00",
+        "gitDecoration.deletedResourceForeground": "#FF6600",
+        "gitDecoration.untrackedResourceForeground": "#00CC00",
+        // Buttons
+        "button.background": "#004400",
+        "button.foreground": "#00FF00",
+        "button.hoverBackground": "#006600",
+        // Input fields
+        "input.background": "#0a0a0a",
+        "input.foreground": "#00FF00",
+        "input.border": "#004400",
+        "input.placeholderForeground": "#003300",
+        "focusBorder": "#00AA00",
+        // Lists (file explorer, etc)
+        "list.activeSelectionBackground": "#003300",
+        "list.activeSelectionForeground": "#00FF00",
+        "list.hoverBackground": "#001a00",
+        "list.focusBackground": "#002200",
+        // Integrated terminal colors
+        "terminal.ansiBlack": "#0a0a0a",
+        "terminal.ansiRed": "#FF6600",
+        "terminal.ansiGreen": "#00FF00",
+        "terminal.ansiYellow": "#FFB000",
+        "terminal.ansiBlue": "#008800",
+        "terminal.ansiMagenta": "#00CC00",
+        "terminal.ansiCyan": "#00FF00",
+        "terminal.ansiWhite": "#00FF00",
+        "terminal.ansiBrightBlack": "#003300",
+        "terminal.ansiBrightRed": "#FF9933",
+        "terminal.ansiBrightGreen": "#33FF33",
+        "terminal.ansiBrightYellow": "#FFCC33",
+        "terminal.ansiBrightBlue": "#00AA00",
+        "terminal.ansiBrightMagenta": "#00DD00",
+        "terminal.ansiBrightCyan": "#66FF66",
+        "terminal.ansiBrightWhite": "#99FF99"
+    },
+    // Token/syntax colors
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    "comment",
+                    "punctuation.definition.comment"
+                ],
+                "settings": {
+                    "foreground": "#004400",
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": [
+                    "string",
+                    "string.quoted"
+                ],
+                "settings": {
+                    "foreground": "#00CC00"
+                }
+            },
+            {
+                "scope": [
+                    "constant.numeric",
+                    "constant.language"
+                ],
+                "settings": {
+                    "foreground": "#33FF33"
+                }
+            },
+            {
+                "scope": [
+                    "keyword",
+                    "storage.type",
+                    "storage.modifier"
+                ],
+                "settings": {
+                    "foreground": "#00FF00",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": [
+                    "entity.name.function",
+                    "meta.function-call"
+                ],
+                "settings": {
+                    "foreground": "#00DD00"
+                }
+            },
+            {
+                "scope": [
+                    "entity.name.type",
+                    "entity.name.class"
+                ],
+                "settings": {
+                    "foreground": "#00FF00",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": [
+                    "variable",
+                    "variable.other"
+                ],
+                "settings": {
+                    "foreground": "#00AA00"
+                }
+            },
+            {
+                "scope": [
+                    "support.function",
+                    "support.class"
+                ],
+                "settings": {
+                    "foreground": "#00CC00"
+                }
+            },
+            {
+                "scope": [
+                    "entity.other.attribute-name"
+                ],
+                "settings": {
+                    "foreground": "#00BB00"
+                }
+            },
+            {
+                "scope": [
+                    "punctuation"
+                ],
+                "settings": {
+                    "foreground": "#008800"
+                }
+            }
+        ]
+    },
+    // Font settings for retro terminal feel
+    "editor.fontFamily": "'Terminess Nerd Font Mono', 'JetBrains Mono', 'Fira Code', monospace",
+    "terminal.integrated.fontFamily": "'Terminess Nerd Font Mono', monospace",
+    "editor.fontSize": 14,
+    "terminal.integrated.fontSize": 14,
+    // Cursor style for that retro feel
+    "editor.cursorStyle": "block",
+    "editor.cursorBlinking": "blink",
+    "terminal.integrated.cursorStyle": "block",
+    "terminal.integrated.cursorBlinking": true
+}

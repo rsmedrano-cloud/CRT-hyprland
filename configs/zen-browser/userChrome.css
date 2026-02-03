@@ -1,0 +1,144 @@
+/*
+ * Inspired by JaKooLit, Retroed by Non-Sense Nostalgia
+ * CRT Phosphor Green - Zen Browser userChrome.css
+ *
+ * Installation:
+ * 1. Open Zen Browser, go to about:support
+ * 2. Click "Open Profile Folder"
+ * 3. Create a folder called "chrome" if it doesn't exist
+ * 4. Copy this file as "userChrome.css" into the chrome folder
+ * 5. Go to about:config and set toolkit.legacyUserProfileCustomizations.stylesheets to true
+ * 6. Restart Zen Browser
+ */
+
+/* === CRT Phosphor Green Variables === */
+:root {
+    --crt-bg: #0a0a0a !important;
+    --crt-bg-secondary: #0f0f0f !important;
+    --crt-green: #00FF00 !important;
+    --crt-green-bright: #33FF33 !important;
+    --crt-green-dim: #00AA00 !important;
+    --crt-green-dark: #004400 !important;
+    --crt-amber: #FFB000 !important;
+    --crt-glow: rgba(0, 255, 0, 0.4) !important;
+}
+
+/* === Main Browser Chrome === */
+#navigator-toolbox {
+    background-color: var(--crt-bg) !important;
+    border-bottom: 1px solid var(--crt-green-dark) !important;
+}
+
+/* Tab bar */
+#TabsToolbar {
+    background-color: var(--crt-bg) !important;
+}
+
+.tabbrowser-tab {
+    background-color: var(--crt-bg-secondary) !important;
+    color: var(--crt-green-dim) !important;
+    border: 1px solid var(--crt-green-dark) !important;
+    border-radius: 4px 4px 0 0 !important;
+    margin: 2px 1px 0 1px !important;
+}
+
+.tabbrowser-tab[selected="true"] {
+    background-color: var(--crt-bg) !important;
+    color: var(--crt-green) !important;
+    border-color: var(--crt-green-dim) !important;
+    box-shadow: 0 0 8px var(--crt-glow) !important;
+}
+
+.tabbrowser-tab:hover:not([selected="true"]) {
+    background-color: rgba(0, 255, 0, 0.1) !important;
+}
+
+/* Tab text */
+.tab-text {
+    color: inherit !important;
+    font-family: 'Terminess Nerd Font Mono', monospace !important;
+    text-shadow: 0 0 2px var(--crt-green-dim) !important;
+}
+
+/* === URL Bar === */
+#urlbar-background {
+    background-color: var(--crt-bg-secondary) !important;
+    border: 1px solid var(--crt-green-dark) !important;
+    border-radius: 4px !important;
+}
+
+#urlbar[focused="true"]>#urlbar-background {
+    border-color: var(--crt-green) !important;
+    box-shadow: 0 0 5px var(--crt-glow) !important;
+}
+
+#urlbar-input {
+    color: var(--crt-green) !important;
+    font-family: 'Terminess Nerd Font Mono', monospace !important;
+}
+
+/* === Toolbar Buttons === */
+.toolbarbutton-1 {
+    color: var(--crt-green-dim) !important;
+}
+
+.toolbarbutton-1:hover {
+    color: var(--crt-green) !important;
+    background-color: rgba(0, 255, 0, 0.1) !important;
+}
+
+/* === Bookmarks Bar === */
+#PersonalToolbar {
+    background-color: var(--crt-bg) !important;
+    border-bottom: 1px solid var(--crt-green-dark) !important;
+}
+
+.bookmark-item {
+    color: var(--crt-green-dim) !important;
+}
+
+.bookmark-item:hover {
+    color: var(--crt-green) !important;
+    text-shadow: 0 0 3px var(--crt-green) !important;
+}
+
+/* === Sidebar === */
+#sidebar-box {
+    background-color: var(--crt-bg) !important;
+}
+
+#sidebar {
+    background-color: var(--crt-bg) !important;
+    color: var(--crt-green) !important;
+}
+
+/* === Context Menus === */
+menupopup {
+    background-color: var(--crt-bg) !important;
+    border: 1px solid var(--crt-green-dark) !important;
+    color: var(--crt-green) !important;
+}
+
+menuitem:hover,
+menu:hover {
+    background-color: rgba(0, 255, 0, 0.2) !important;
+    color: var(--crt-green-bright) !important;
+}
+
+/* === Findbar === */
+findbar {
+    background-color: var(--crt-bg) !important;
+    border-top: 1px solid var(--crt-green-dark) !important;
+}
+
+.findbar-textbox {
+    background-color: var(--crt-bg-secondary) !important;
+    color: var(--crt-green) !important;
+    border: 1px solid var(--crt-green-dark) !important;
+}
+
+/* === Scrollbars === */
+* {
+    scrollbar-color: var(--crt-green-dark) var(--crt-bg) !important;
+    scrollbar-width: thin !important;
+}

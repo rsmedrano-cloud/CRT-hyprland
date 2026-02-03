@@ -1,0 +1,97 @@
+/* ----------- Inspired by JaKooLit, Retroed by Non-Sense Nostalgia -------- */
+/* CRT Phosphor Green - Wlogout Styling */
+
+window {
+    font-family: "Terminus (TTF)", "JetBrains Mono Nerd Font";
+    font-size: 20pt;
+    color: #00FF00;
+    background-color: rgba(10, 10, 10, 0.9);
+}
+
+button {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20%;
+    background-color: rgba(0, 255, 0, 0.05);
+    animation: none;
+    transition: all 0.3s cubic-bezier(.55, 0.0, .28, 1.682), box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
+    border-radius: 8px;
+    border: 2px solid #004400;
+    outline-style: none;
+    color: #00FF00;
+}
+
+button:focus {
+    background-size: 40%;
+    border: 2px solid #00AA00;
+    outline-style: none;
+}
+
+button:hover {
+    background-color: rgba(0, 255, 0, 0.15);
+    color: #33FF33;
+    background-size: 45%;
+    margin: 20px;
+    border-radius: 8px;
+    border: 2px solid #00FF00;
+    outline-style: none;
+    box-shadow: 0 0 15px rgba(0, 255, 0, 0.5);
+    text-shadow: 0 0 8px #00FF00;
+}
+
+/* Adjust the size of the icon or content inside the button */
+button span {
+    font-size: 1.1em;
+    text-shadow: 0 0 3px #00FF00;
+}
+
+/* Note: Icons are inherited from the original JaKooLit setup */
+/* For full CRT effect, consider creating green-tinted versions */
+
+#lock {
+    background-image: image(url("./icons/lock.png"));
+}
+
+#lock:hover {
+    background-image: image(url("./icons/lock-hover.png"));
+}
+
+#logout {
+    background-image: image(url("./icons/logout.png"));
+}
+
+#logout:hover {
+    background-image: image(url("./icons/logout-hover.png"));
+}
+
+#suspend {
+    background-image: image(url("./icons/sleep.png"));
+}
+
+#suspend:hover {
+    background-image: image(url("./icons/sleep-hover.png"));
+}
+
+#shutdown {
+    background-image: image(url("./icons/power.png"));
+}
+
+#shutdown:hover {
+    background-image: image(url("./icons/power-hover.png"));
+}
+
+#reboot {
+    background-image: image(url("./icons/restart.png"));
+}
+
+#reboot:hover {
+    background-image: image(url("./icons/restart-hover.png"));
+}
+
+#hibernate {
+    background-image: image(url("./icons/hibernate.png"));
+}
+
+#hibernate:hover {
+    background-image: image(url("./icons/hibernate-hover.png"));
+}

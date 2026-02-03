@@ -1,0 +1,11 @@
+/* Inspired by JaKooLit, Retroed by Non-Sense Nostalgia */
+/* CRT Phosphor Green - Rofi Color Theme */
+
+* {
+    background:     #0a0a0aE6;
+    background-alt: #050505FF;
+    foreground:     #00FF00FF;
+    selected:       #00FF00FF;
+    active:         #00AA00FF;
+    urgent:         #FFB000FF;
+}

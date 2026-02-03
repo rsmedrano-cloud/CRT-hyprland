@@ -1,0 +1,8 @@
+/* Inspired by JaKooLit, Retroed by Non-Sense Nostalgia */
+/* CRT Phosphor Green - Rofi Config */
+
+/* ---- Global Configuration Fonts ---- */
+@import "~/.config/rofi/0-shared-fonts.rasi"
+
+/* CRT Phosphor Green Theme */
+@theme "~/.config/rofi/themes/CRT-Phosphor.rasi"

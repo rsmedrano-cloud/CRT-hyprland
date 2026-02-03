@@ -1,0 +1,85 @@
+# Inspired by JaKooLit, Retroed by Non-Sense Nostalgia
+# CRT Phosphor Green - btop Theme
+
+# Colors should be in 6 or 2 character hexadecimal or single spaced rgb decimal: "#RRGGBB", move theme to ./btop/themes folder
+# When using hex colors, the "#" character is optional
+
+# Terminal background color
+theme[main_bg]="#0a0a0a"
+
+# Main text color
+theme[main_fg]="#00FF00"
+
+# Title color
+theme[title]="#00FF00"
+
+# Highlight color for selected items
+theme[hi_fg]="#33FF33"
+
+# Current item color
+theme[selected_bg]="#003300"
+theme[selected_fg]="#00FF00"
+
+# Inactive/disabled text
+theme[inactive_fg]="#004400"
+
+# Gradient colors for meters (all green shades)
+theme[proc_misc]="#00AA00"
+
+# Box border color
+theme[graph_text]="#00AA00"
+
+# CPU graph colors
+theme[cpu_box]="#004400"
+theme[cpu_start]="#004400"
+theme[cpu_mid]="#00AA00"
+theme[cpu_end]="#00FF00"
+
+# Memory graph colors
+theme[mem_box]="#004400"
+theme[mem_start]="#004400"
+theme[mem_mid]="#008800"
+theme[mem_end]="#00FF00"
+
+# Network graph colors
+theme[net_box]="#004400"
+theme[download_start]="#004400"
+theme[download_mid]="#008800"
+theme[download_end]="#00FF00"
+theme[upload_start]="#003300"
+theme[upload_mid]="#006600"
+theme[upload_end]="#00AA00"
+
+# Process box colors
+theme[proc_box]="#004400"
+
+# Meter color
+theme[meter_bg]="#003300"
+
+# Temperature colors
+theme[temp_start]="#004400"
+theme[temp_mid]="#00AA00"
+theme[temp_end]="#FFB000"
+
+# Divider line color
+theme[div_line]="#004400"
+
+# Free meter color
+theme[free_start]="#003300"
+theme[free_mid]="#004400"
+theme[free_end]="#006600"
+
+# Cached meter color
+theme[cached_start]="#003300"
+theme[cached_mid]="#006600"
+theme[cached_end]="#00AA00"
+
+# Available meter color
+theme[available_start]="#004400"
+theme[available_mid]="#008800"
+theme[available_end]="#00CC00"
+
+# Used meter color
+theme[used_start]="#006600"
+theme[used_mid]="#00AA00"
+theme[used_end]="#00FF00"

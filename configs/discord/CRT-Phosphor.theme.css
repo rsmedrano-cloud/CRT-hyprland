@@ -1,0 +1,194 @@
+/**
+ * Inspired by JaKooLit, Retroed by Non-Sense Nostalgia
+ * CRT Phosphor Green - Discord Theme (BetterDiscord/Vencord)
+ * 
+ * Installation:
+ * 1. Install BetterDiscord (https://betterdiscord.app/) or Vencord
+ * 2. Copy this file to your themes folder
+ * 3. Enable in Discord settings
+ */
+
+/* === CRT Phosphor Green Color Variables === */
+:root {
+    /* Core phosphor colors */
+    --crt-bg: #0a0a0a;
+    --crt-bg-secondary: #0f0f0f;
+    --crt-bg-tertiary: #141414;
+    --crt-green: #00FF00;
+    --crt-green-bright: #33FF33;
+    --crt-green-dim: #00AA00;
+    --crt-green-dark: #004400;
+    --crt-amber: #FFB000;
+    --crt-red: #FF3333;
+
+    /* Discord variable overrides */
+    --background-primary: var(--crt-bg);
+    --background-secondary: var(--crt-bg-secondary);
+    --background-secondary-alt: var(--crt-bg-tertiary);
+    --background-tertiary: #050505;
+    --background-floating: var(--crt-bg);
+    --background-modifier-hover: rgba(0, 255, 0, 0.1);
+    --background-modifier-active: rgba(0, 255, 0, 0.15);
+    --background-modifier-selected: rgba(0, 255, 0, 0.2);
+    --background-modifier-accent: rgba(0, 255, 0, 0.1);
+
+    --text-normal: var(--crt-green);
+    --text-muted: var(--crt-green-dim);
+    --text-link: var(--crt-green-bright);
+    --header-primary: var(--crt-green);
+    --header-secondary: var(--crt-green-dim);
+    --interactive-normal: var(--crt-green-dim);
+    --interactive-hover: var(--crt-green);
+    --interactive-active: var(--crt-green-bright);
+    --interactive-muted: var(--crt-green-dark);
+
+    --channels-default: var(--crt-green-dim);
+    --channel-icon: var(--crt-green-dim);
+
+    --brand-experiment: var(--crt-green);
+    --brand-experiment-560: var(--crt-green-dim);
+
+    /* Glow effects */
+    --glow-color: rgba(0, 255, 0, 0.3);
+}
+
+/* === Global Styles === */
+* {
+    font-family: 'Terminess Nerd Font Mono', 'JetBrains Mono', monospace !important;
+}
+
+/* Text glow effect */
+.markup-eYLPri,
+.username-h_Y3Us,
+.title-17SveM,
+.name-3Uvkvr {
+    text-shadow: 0 0 3px var(--crt-green);
+}
+
+/* === Server List === */
+.wrapper-1_HaEi {
+    background-color: var(--crt-bg);
+}
+
+.listItem-3SmSlK .wrapper-28eC3z {
+    background-color: var(--crt-bg-secondary);
+    border: 1px solid var(--crt-green-dark);
+}
+
+.listItem-3SmSlK .wrapper-28eC3z:hover {
+    background-color: var(--crt-bg-tertiary);
+    box-shadow: 0 0 8px var(--glow-color);
+}
+
+/* === Channels === */
+.containerDefault-YUSmu3 {
+    border-radius: 4px;
+}
+
+.containerDefault-YUSmu3:hover {
+    background-color: rgba(0, 255, 0, 0.1);
+}
+
+.modeSelected-3DmyhH .content-1gYQeQ,
+.modeSelected-3DmyhH:hover .content-1gYQeQ {
+    background-color: rgba(0, 255, 0, 0.2);
+    border-left: 2px solid var(--crt-green);
+}
+
+/* === Chat Area === */
+.chat-2ZfjoI {
+    background-color: var(--crt-bg);
+}
+
+.messageContent-2t3eCI {
+    color: var(--crt-green);
+}
+
+/* Message hover */
+.message-2CShn3:hover {
+    background-color: rgba(0, 255, 0, 0.05);
+}
+
+/* === Input Box === */
+.scrollableContainer-15eg7h {
+    background-color: var(--crt-bg-secondary);
+    border: 1px solid var(--crt-green-dark);
+    border-radius: 4px;
+}
+
+.scrollableContainer-15eg7h:focus-within {
+    border-color: var(--crt-green);
+    box-shadow: 0 0 5px var(--glow-color);
+}
+
+/* === Buttons === */
+.button-f2h6uQ {
+    background-color: var(--crt-green-dark);
+    color: var(--crt-green);
+    border: 1px solid var(--crt-green-dim);
+}
+
+.button-f2h6uQ:hover {
+    background-color: var(--crt-green);
+    color: var(--crt-bg);
+    box-shadow: 0 0 8px var(--glow-color);
+}
+
+/* === Scrollbar === */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--crt-bg);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--crt-green-dark);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--crt-green-dim);
+}
+
+/* === Mentions and Pings === */
+.mentioned-Tre-dv {
+    background-color: rgba(0, 255, 0, 0.1);
+    border-left: 2px solid var(--crt-green);
+}
+
+/* === Subtle Scanline Effect (optional - may impact performance) === */
+/*
+.appMount-2yBXZl::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: repeating-linear-gradient(
+        transparent,
+        transparent 2px,
+        rgba(0, 0, 0, 0.03) 2px,
+        rgba(0, 0, 0, 0.03) 4px
+    );
+    pointer-events: none;
+    z-index: 9999;
+}
+*/
+
+/* === Status Indicators === */
+.status-1AY8sU[style*="online"] {
+    mask: none;
+    background-color: var(--crt-green) !important;
+    box-shadow: 0 0 5px var(--crt-green);
+}
+
+.status-1AY8sU[style*="idle"] {
+    background-color: var(--crt-amber) !important;
+}
+
+.status-1AY8sU[style*="dnd"] {
+    background-color: var(--crt-red) !important;
+}
