@@ -4,7 +4,22 @@
 
 A phosphor-green CRT retro terminal aesthetic for Hyprland on Arch Linux.
 
-![CRT Preview](wallpapers/preview.png)
+## Screenshots
+
+### Desktop & Waybar
+![Desktop with CRT shader and Waybar](screenshots/desktop-waybar.png)
+
+### Terminal & Config
+![Terminal with Hyprland config](screenshots/terminal-config.png)
+
+### Code Editor
+![VS Code with CRT theme](screenshots/vscode-editor.png)
+
+### ASCII Art Demo
+![ASCII art in terminal](screenshots/ascii-art.png)
+
+### System Monitor (btop)
+![btop system monitor](screenshots/btop.png)
 
 ## Features
 
@@ -53,6 +68,7 @@ CRT-hyprland/
 │   ├── rofi/          # Rofi launcher theme
 │   ├── swaync/        # Notification styling
 │   └── wlogout/       # Logout menu styling
+├── screenshots/       # Theme preview images
 ├── wallpapers/        # CRT-styled wallpapers
 ├── fonts/             # Bitmap fonts (if not in AUR)
 └── scripts/           # Installation and utility scripts
